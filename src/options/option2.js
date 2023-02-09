@@ -21,6 +21,16 @@ var points = [
 ];
 
 export default {
+  title: {
+    text: "今日B站各地前往福建的UP",
+    left: "center",
+    textStyle: {
+      color: "#fff",
+      fontSize: 14,
+      fontWeight: "normal",
+      textAlign: "center",
+    },
+  },
   backgroundColor: "#040D21",
   geo: {
     map: "china",

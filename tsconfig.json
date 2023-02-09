@@ -32,6 +32,6 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "auto-imports.d.ts", //方案一: 解决 '找不到名称“Elxxx”' 报错  
+    "auto-imports.d.ts", "src/options/option1.js", "src/options/option1.js", //方案一: 解决 '找不到名称“Elxxx”' 报错  
   ]
 }
