@@ -142,4 +142,21 @@ const optionsMap = ref(
     }
   }
 }
+@media screen and (max-width:580px){
+  .graph-wrap{
+    background-color: #14182C;
+    height: auto  !important;;
+    display: flex !important;
+    flex-direction: column;
+
+    div{
+      height: 200px;
+      width: 100%;
+      &:nth-of-type(5){
+        display: none;
+      }
+    }
+
+  }
+}
 </style>
