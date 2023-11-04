@@ -5,14 +5,10 @@
       "ES2017",
       "DOM"
     ],
+    "jsx": "preserve",
     // "useDefineForClassFields": true,
     // "module": "esnext",
     "moduleResolution": "node",
-    "strict": false,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "allowJs": false,
     // "esModuleInterop": true,
     // "lib": ["esnext", "dom"],
     "baseUrl": "./",
@@ -20,18 +16,22 @@
       "@/*": [
         "src/*"
       ]
-    },
-    "allowSyntheticDefaultImports": true, // 默认导入
-    "skipLibCheck": true, // 不对第三方依赖类型检查 ，element-plus 生产打包报错
+    }, // 不对第三方依赖类型检查 ，element-plus 生产打包报错
     "types": [
-      "element-plus/global",
-    ]
-  },  
+      "element-plus/global"
+    ],
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false, // 默认导入
+    "skipLibCheck": true
+  },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "auto-imports.d.ts", "src/options/option1.js", "src/options/option1.js", //方案一: 解决 '找不到名称“Elxxx”' 报错  
+    "auto-imports.d.ts", "src/options/option1.js", "src/options/option1.js" // 方案一: 解决 '找不到名称“Elxxx”' 报错
   ]
 }
